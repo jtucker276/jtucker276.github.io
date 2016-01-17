@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-
+![my logo]({{site.url}}/img/judson-3.jpg) \\
 This site was made with [Jekyll][jekyll-l] and [GitHub Pages][ghp-l].
 
 [jekyll-l]: http://jekyllrb.com
