@@ -6,8 +6,6 @@ categories: links
 ---
 The following is a collection of potentially useful or interesting links, to be updated periodically. If you find a dead link, please let me know!  
 
-Does math work?   $$E=mc^2$$. We'll find out!  
-
 [QI][qi-l]  
 [GitHub][github-l]  
 [Waffle.io][waffle-l]
