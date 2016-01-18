@@ -62,7 +62,7 @@ user$: git commit -m "fixes #<issue-number>"
 
 - Create a pull request to move the ticket into Waffle's 'needs review' column:
   - Using GitHub gui, go to repo home -> "Pull Requests" -> "New pull request"
-  - Set base: develop and compare: <feature branch name>
+  - Set base: ```develop``` and compare: ```<feature branch name>```
   - "Create pull request"
   - Make sure to use ```[fixes | closes | resolves] #<issue-number>``` in the pull request description or title!
   - Assign a reviewer
