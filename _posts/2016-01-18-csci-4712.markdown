@@ -18,7 +18,7 @@ For every ticket item (work item), we create a fresh branch off of ```develop```
 
 - We get a ticket.
 
-- We checkout the _develop_ branch on our local machines:
+- We checkout the ```develop``` branch on our local machines:
 {% highlight bash %}
 user$: git checkout develop
 user$: git branch
