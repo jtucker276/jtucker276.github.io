@@ -1,0 +1,70 @@
+---
+layout: post
+title:  "CSCI 4712 Workflow"
+date:   2016-01-18 11:55:00 -0500
+visible: 0
+---
+### General
+There are two main branches on the Git repo: \\
+- **master** \\
+- **develop** 
+
+The _master_ branch holds the latest stable build of the project. The _develop_ branch holds our latest development builds.
+
+- - -  
+
+### Waffle and Git workflow automation
+For every ticket item (work item), we create a fresh branch off of _develop_, make our changes, get it reviewed, and integrate it back into the development branch. This branching allows us sandboxes without too much fear of destroying all the working things! (:
+
+- We get a ticket.
+
+- We checkout the _develop_ branch on our local machines:
+{% highlight bash %}
+user$: git checkout develop
+user$: git branch
+{% endhighlight %}
+
+- We create our working branch. We checkout the branch with the switch ```-b``` which creates the branch for us. The name of the branch follows the format ```wtf-is-this-bug_#27```, for a branch for Waffle ticket number 27 dealing with _'wtf is this bug that we just found?'_. This format is **muy importante**, and the ```_#27``` allows Waffle to associate the branch and its work with the correct ticket.
+{% highlight bash %}
+user$: git checkout -b <description-separated-by-endashes>_#<issue-number>
+{% endhighlight %}
+
+- We push the branch up to automatically move the ticket to the 'in progress' column in Waffle:
+{% highlight bash %}
+user$: git push -u origin <whatever branch name we created above>
+{% endhighlight %}
+
+- Do the work...
+
+- To see a list of files we've modified:
+{% highlight bash %}
+user$: git status
+{% endhighlight %}
+
+- To add a file to the commit:
+{% highlight bash %}
+user$: git add <filename>
+adds a specified file
+OR
+user$: git add -A
+adds all files in the list
+{% endhighlight %}
+
+- We confirm that the file was added, ready to be committed:
+{% highlight bash %}
+user$: git status
+{% endhighlight %}
+
+- Commit the work. Note that the switch ```-m``` enables us to add a message to the commit: ```fixes #<issue-number>```. Git and Waffle have a lot of integrated [keywords](https://help.github.com/articles/closing-issues-via-commit-messages/), but let's just use ```fixes```? This syntax in the commit message automatically closes out the ticket.
+{% highlight bash %}
+user$: git commit -m "fixes #<issue-number>"
+{% endhighlight %}
+
+- Create a pull request to move the ticket into Waffle's 'needs review' column:
+  - Using GitHub gui, go to repo home -> "Pull Requests" -> "New pull request"
+  - Set base: develop and compare: <feature branch name>
+  - "Create pull request"
+  - Make sure to use ```[fixes | closes | resolves] #<issue-number>``` in the pull request description or title!
+  - Assign a reviewer
+
+- After review, the branch can be merged into ```develop```, which moves the ticket to Waffle's 'Done' column.
