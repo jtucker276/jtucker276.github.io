@@ -9,12 +9,12 @@ There are two main branches on the Git repo: \\
 - **master** \\
 - **develop** 
 
-The _master_ branch holds the latest stable build of the project. The _develop_ branch holds our latest development builds.
+The ```master``` branch holds the latest stable build of the project. The ```develop``` branch holds our latest development builds. For development on each ticket item (work item), we'll create 'feature branches' off of ```develop```.
 
 - - -  
 
 ### Waffle and Git workflow automation
-For every ticket item (work item), we create a fresh branch off of _develop_, make our changes, get it reviewed, and integrate it back into the development branch. This branching allows us sandboxes without too much fear of destroying all the working things! (:
+For every ticket item (work item), we create a fresh branch off of ```develop```, make our changes, get it reviewed, and integrate it back into the development branch. This branching allows us sandboxes without too much fear of destroying all the working things!  
 
 - We get a ticket.
 
