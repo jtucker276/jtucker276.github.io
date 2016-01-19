@@ -11,6 +11,7 @@ The following is a collection of potentially useful or interesting links, to be 
 - [QI][qi-l]
 - [Less than three][llt]
 - [Slide rules rule](http://www.sliderules.info/pdf/pdf.htm)
+- [What a Terrible Failure](http://developer.android.com/reference/android/util/Log.html#wtf(java.lang.String, java.lang.Throwable))
 
 ### Git, Waffle, and workflows
 - [GitHub][github-l]
