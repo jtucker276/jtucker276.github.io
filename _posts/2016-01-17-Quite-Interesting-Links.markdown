@@ -10,6 +10,7 @@ The following is a collection of potentially useful or interesting links, to be 
 ### General
 - [QI][qi-l]
 - [Less than three][llt]
+- [Slide rules rule](http://www.sliderules.info/pdf/pdf.htm)
 
 ### Git, Waffle, and workflows
 - [GitHub][github-l]
@@ -30,3 +31,12 @@ The following is a collection of potentially useful or interesting links, to be 
 [gitclone-l]: https://help.github.com/articles/cloning-a-repository/
 [wwf-l]: https://github.com/waffleio/waffle.io/wiki/Recommended-Workflow-Using-Pull-Requests-&-Automatic-Work-Tracking
 [csci4712-l]: {% post_url 2016-01-18-csci-4712 %}
+
+### Language References
+- [Haskell Reference Card](http://cheatsheet.codeslower.com/CheatSheet.pdf)
+- [LaTeX Reference Card](https://wch.github.io/latexsheet/latexsheet.pdf)
+- [Markdown Reference Card](http://packetlife.net/media/library/16/Markdown.pdf)
+- [RMarkdown Reference Card](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+- [Perl Reference Card](http://michaelgoerz.net/refcards/perl_refcard.pdf)
+- [R Reference Card](https://cran.r-project.org/doc/contrib/Short-refcard.pdf)
+- [Swift Reference Card](http://cdn3.raywenderlich.com/wp-content/uploads/2014/06/RW-Swift-Cheatsheet-0_6.pdf)
