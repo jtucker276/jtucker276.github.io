@@ -18,8 +18,9 @@ For every ticket item (work item), we create a fresh branch off of ```develop```
 
 - We get a ticket.
 
-- We checkout the ```develop``` branch on our local machines:
+- We checkout the ```develop``` branch on our local machine:
 {% highlight bash %}
+user$: cd path/to/the/repo/on/your/machine/
 user$: git checkout develop
 user$: git branch
 {% endhighlight %}
@@ -64,7 +65,8 @@ user$: git commit -m "fixes #<issue-number>"
   - Using GitHub gui, go to repo home -> "Pull Requests" -> "New pull request"
   - Set base: ```develop``` and compare: ```<feature branch name>```
   - "Create pull request"
-  - Make sure to use ```[fixes | closes | resolves] #<issue-number>``` in the pull request description or title!
+  - Make sure to use ```{fixes | closes | resolves} #<issue-number>``` in the pull request description or title!
+    - Note that ```{ }``` denotes a set of mutually exclusive members when one of the arguments is required.
   - Assign a reviewer
 
 - After review, the branch can be merged into ```develop```, which moves the ticket to Waffle's 'Done' column.
