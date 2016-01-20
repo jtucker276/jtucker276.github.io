@@ -20,6 +20,7 @@ The following is a collection of potentially useful or interesting links, to be 
 
 ### Git, Waffle, and workflows
 - [GitHub][github-l]
+- [What is Git?](https://youtu.be/_Jmkvv_nKTE)
 - [Installing Git on Windows - the easy way!][gitinstall-l] - using [Chocolatey][choc-l]
 - [How to clone a remote Git repo][gitclone-l]
 - [Waffle.io][waffle-l]

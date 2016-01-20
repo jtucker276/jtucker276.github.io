@@ -5,6 +5,10 @@ date:   2016-01-18 11:55:00 -0500
 visible: 0
 ---
 ### General
+
+> - [What is Git?](https://youtu.be/_Jmkvv_nKTE)
+> - [What is Waffle?](https://youtu.be/yEbRaA3rYuA)
+
 There are two main branches on the Git repo: \\
 - **master** \\
 - **develop** 
