@@ -13,6 +13,11 @@ The following is a collection of potentially useful or interesting links, to be 
 - [Slide rules rule](http://www.sliderules.info/pdf/pdf.htm)
 - [What a Terrible Failure](http://developer.android.com/reference/android/util/Log.html#wtf(java.lang.String, java.lang.Throwable))
 
+### Microsoft Virtual Academy
+- [Introduction to ASP.NET MVC](https://mva.microsoft.com/en-US/training-courses/introduction-to-aspnet-mvc-8322?l=nKZwZ8Zy_3504984382)
+- [Implementing Entity Framework with MVC](https://mva.microsoft.com/en-US/training-courses/implementing-entity-framework-with-mvc-8931?l=e2H2lDC3_8304984382)
+- See [link below][gitinstall-l] for MVA Posh-Git instructions
+
 ### Git, Waffle, and workflows
 - [GitHub][github-l]
 - [Installing Git on Windows - the easy way!][gitinstall-l] - using [Chocolatey][choc-l]
