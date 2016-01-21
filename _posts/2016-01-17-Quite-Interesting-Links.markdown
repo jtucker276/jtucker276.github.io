@@ -39,6 +39,12 @@ The following is a collection of potentially useful or interesting links, to be 
 [wwf-l]: https://github.com/waffleio/waffle.io/wiki/Recommended-Workflow-Using-Pull-Requests-&-Automatic-Work-Tracking
 [csci4712-l]: {% post_url 2016-01-18-csci-4712 %}
 
+### Database Goodies
+- [Amazon AWS](https://aws.amazon.com/)
+- [AWS RDB with code-first EF MVC](https://techjukebox.wordpress.com/2013/06/27/entity-framework-code-first-with-aws-sql-rds/)
+- [Execute stored procedure with code-first EF](http://dotnetthoughts.net/how-to-execute-a-stored-procedure-with-entity-framework-code-first/)
+- [Another execute stored procedure with code-first EF](https://visualstudiomagazine.com/articles/2014/04/01/calling-stored-procedures-from-entity-framework.aspx)
+
 ### Reference Cards
 - [Haskell](http://cheatsheet.codeslower.com/CheatSheet.pdf)
 - [LaTeX](https://wch.github.io/latexsheet/latexsheet.pdf)
