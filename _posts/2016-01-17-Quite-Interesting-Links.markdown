@@ -18,7 +18,7 @@ The following is a collection of potentially useful or interesting links, to be 
 - [Implementing Entity Framework with MVC](https://mva.microsoft.com/en-US/training-courses/implementing-entity-framework-with-mvc-8931?l=e2H2lDC3_8304984382)
 - See [link below][gitinstall-l] for MVA Posh-Git instructions
 
-### Git, Waffle, and workflows
+### Git, Waffle, and Workflows
 - [GitHub][github-l]
 - [What is Git?](https://youtu.be/_Jmkvv_nKTE)
 - [Installing Git on Windows - the easy way!][gitinstall-l] - using [Chocolatey][choc-l]
