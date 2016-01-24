@@ -17,7 +17,7 @@ The ```master``` branch holds the latest stable build of the project. The ```dev
 
 - - -  
 
-### Waffle and Git workflow automation
+### Waffle and Git Workflow Automation
 For every ticket item (work item), we create a fresh branch off of ```develop```, make our changes, get it reviewed, and integrate it back into the development branch. This branching allows us sandboxes without too much fear of destroying all the working things!  
 
 - We get a ticket.
@@ -74,3 +74,8 @@ user$: git commit -m "fixes #<issue-number>"
   - Assign a reviewer
 
 - After review, the branch can be merged into ```develop```, which moves the ticket to Waffle's 'Done' column.
+
+- - -
+
+### Review
+See [this great video](https://youtu.be/uJ8jEVKKvyI) for an example of the pull request workflow.
