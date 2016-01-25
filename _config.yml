@@ -17,3 +17,4 @@ github_username:  jtucker276
 
 # Build settings
 markdown: kramdown
+excerpt_separator: <!--more-->
