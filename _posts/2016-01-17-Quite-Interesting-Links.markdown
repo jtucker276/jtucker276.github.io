@@ -22,6 +22,7 @@ The following is a collection of potentially useful or interesting links, to be 
 - [GitHub][github-l]
 - [What is Git?](https://youtu.be/_Jmkvv_nKTE)
 - [Installing Git on Windows - the easy way!][gitinstall-l] - using [Chocolatey][choc-l]
+- [First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 - [How to clone a remote Git repo][gitclone-l]
 - [Waffle.io][waffle-l]
 - [What's a Waffle?][wafflei-l]
