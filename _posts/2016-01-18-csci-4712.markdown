@@ -22,10 +22,15 @@ For every ticket item (work item), we create a fresh branch off of ```develop```
 
 - We get a ticket.
 
-- We checkout the ```develop``` branch on our local machine:
+- We checkout the ```develop``` branch on our local machine ***and make sure to pull*** in order to get all the latest changes:
 {% highlight bash %}
 user$: cd path/to/the/repo/on/your/machine/
 user$: git checkout develop
+user$: git pull
+{% endhighlight %}
+
+- We make sure we're on the right branch by seeing what branches are on our local machine:
+{% highlight bash %}
 user$: git branch
 {% endhighlight %}
 
@@ -60,9 +65,14 @@ adds all files in the list
 user$: git status
 {% endhighlight %}
 
-- Commit the work. Note that the switch ```-m``` enables us to add a message to the commit: ```fixes #<issue-number>```. Git and Waffle have a lot of integrated [keywords](https://help.github.com/articles/closing-issues-via-commit-messages/), but let's just use ```fixes```? This syntax in the commit message automatically closes out the ticket.
+- Commit the work. Note that the switch ```-m``` enables us to add a message to the commit: ```fixes #<issue-number>```. Git and Waffle have a lot of integrated [keywords](https://help.github.com/articles/closing-issues-via-commit-messages/), but let's just use ```fixes```?  
 {% highlight bash %}
 user$: git commit -m "fixes #<issue-number>"
+{% endhighlight %}
+
+- We push the branch up to the main repo, so that other contributors can see it:
+{% highlight bash %}
+user$: git push -u origin <whatever branch name we created>
 {% endhighlight %}
 
 - Create a pull request to move the ticket into Waffle's 'needs review' column:
