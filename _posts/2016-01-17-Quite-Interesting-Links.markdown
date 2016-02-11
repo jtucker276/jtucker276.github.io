@@ -18,11 +18,15 @@ The following is a collection of potentially useful or interesting links, to be 
 - [Implementing Entity Framework with MVC](https://mva.microsoft.com/en-US/training-courses/implementing-entity-framework-with-mvc-8931?l=e2H2lDC3_8304984382)
 - See [link below][gitinstall-l] for MVA Posh-Git instructions
 
+### Capstone Tutorial
+- [The video tutorial from Tom](https://www.youtube.com/playlist?list=PLyTGxV2Uvi86oIm7Ws6o3BB41OUvi1kCT)
+  - The PDF of this tutorial is [here](http://download.microsoft.com/download/0/F/B/0FBFAA46-2BFD-478F-8E56-7BF3C672DF9D/Getting%20Started%20with%20Entity%20Framework%206%20Code%20First%20using%20MVC%205.pdf) and absolutely worth the download!
+  - Based on Tom Dykstra's MVC guidance [here](http://www.asp.net/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application)
+
 ### Other Tutorials
 - [What are ViewModels?](http://sampathloku.blogspot.com/2012/10/how-to-use-viewmodel-with-aspnet-mvc.html) *thanks, RoadiePro!*
 - [Using MVC ViewModels](https://youtu.be/oN1f2Vpc-wU)
 - [kudvenkat's YouTube channel rocks](https://www.youtube.com/channel/UCCTVrRB5KpIiK6V2GGVsR1Q)
-- [Nice tutorial from Tom](https://www.youtube.com/playlist?list=PLyTGxV2Uvi86oIm7Ws6o3BB41OUvi1kCT) *that I still need to watch...*
 
 ### Git, Waffle, and Workflows
 - [GitHub][github-l]
