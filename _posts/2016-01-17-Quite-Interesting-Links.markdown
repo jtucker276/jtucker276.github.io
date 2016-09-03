@@ -18,26 +18,15 @@ The following is a collection of potentially useful or interesting links, to be 
 - [Implementing Entity Framework with MVC](https://mva.microsoft.com/en-US/training-courses/implementing-entity-framework-with-mvc-8931?l=e2H2lDC3_8304984382)
 - See [link below][gitinstall-l] for MVA Posh-Git instructions
 
-### Capstone Tutorial
-- [The video tutorial from Tom](https://www.youtube.com/playlist?list=PLyTGxV2Uvi86oIm7Ws6o3BB41OUvi1kCT)
-  - The PDF of this tutorial is [here](http://download.microsoft.com/download/0/F/B/0FBFAA46-2BFD-478F-8E56-7BF3C672DF9D/Getting%20Started%20with%20Entity%20Framework%206%20Code%20First%20using%20MVC%205.pdf) and absolutely worth the download!
-  - Based on Tom Dykstra's MVC guidance [here](http://www.asp.net/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application)
-
-### Other Tutorials
-- [What are ViewModels?](http://sampathloku.blogspot.com/2012/10/how-to-use-viewmodel-with-aspnet-mvc.html) *thanks, RoadiePro!*
-- [Using MVC ViewModels](https://youtu.be/oN1f2Vpc-wU)
-- [kudvenkat's YouTube channel rocks](https://www.youtube.com/channel/UCCTVrRB5KpIiK6V2GGVsR1Q)
-
 ### Git, Waffle, and Workflows
 - [GitHub][github-l]
-- [What is Git?](https://youtu.be/_Jmkvv_nKTE)
-- [Installing Git on Windows - the easy way!][gitinstall-l] - using [Chocolatey][choc-l]
+- [What is Git? (video)](https://youtu.be/_Jmkvv_nKTE)
+- [Installing Git on Windows - the easy way! (video)][gitinstall-l] - using [Chocolatey][choc-l]
 - [First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 - [How to clone a remote Git repo][gitclone-l]
 - [Waffle.io][waffle-l]
-- [What's a Waffle?][wafflei-l]
+- [What's a Waffle? (video)][wafflei-l]
 - [Waffle Ironing][wwf-l]
-- [Proposed workflow for CSCI-4712][csci4712-l]
 
 [qi-l]: http://qi.com
 [llt]: http://cdn.teen.com/wp-content/uploads/2014/10/taylor-swift-heart.gif
@@ -48,7 +37,6 @@ The following is a collection of potentially useful or interesting links, to be 
 [choc-l]: https://chocolatey.org
 [gitclone-l]: https://help.github.com/articles/cloning-a-repository/
 [wwf-l]: https://github.com/waffleio/waffle.io/wiki/Recommended-Workflow-Using-Pull-Requests-&-Automatic-Work-Tracking
-[csci4712-l]: {% post_url 2016-01-18-csci-4712 %}
 
 ### Database Goodies
 - [Amazon AWS](https://aws.amazon.com/)
@@ -56,7 +44,7 @@ The following is a collection of potentially useful or interesting links, to be 
 - [Execute stored procedure with code-first EF](http://dotnetthoughts.net/how-to-execute-a-stored-procedure-with-entity-framework-code-first/)
 - [Another execute stored procedure with code-first EF](https://visualstudiomagazine.com/articles/2014/04/01/calling-stored-procedures-from-entity-framework.aspx)
 
-### Reference Cards
+### PDF Reference Cards
 - [Haskell](http://cheatsheet.codeslower.com/CheatSheet.pdf)
 - [LaTeX](https://wch.github.io/latexsheet/latexsheet.pdf)
 - [Markdown](http://packetlife.net/media/library/16/Markdown.pdf)
