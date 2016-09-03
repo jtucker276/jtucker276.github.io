@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quite Interesting Links"
-date:   2016-09-2 22:40:26 -0500
+date:   2016-01-17 22:40:26 -0500
 categories: links
 visible: 1
 ---
