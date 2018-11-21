@@ -16,7 +16,7 @@
 title: Judson Tucker
 email: contact@judsontucker.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Judson Tucker's personal site.
+  Judson Tucker's personal site. Your Roomba is probably stuck near a cliff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://judsontucker.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: thejudsontucker
