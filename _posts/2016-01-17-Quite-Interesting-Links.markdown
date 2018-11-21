@@ -26,7 +26,6 @@ The following is a collection of potentially useful or interesting links, to be 
 - [Waffle.io][waffle-l]
 - [What's a Waffle?][wafflei-l]
 - [Waffle Ironing][wwf-l]
-- [Proposed workflow for CSCI-4712][csci4712-l]
 
 [qi-l]: http://qi.com
 [llt]: http://cdn.teen.com/wp-content/uploads/2014/10/taylor-swift-heart.gif
@@ -37,7 +36,6 @@ The following is a collection of potentially useful or interesting links, to be 
 [choc-l]: https://chocolatey.org
 [gitclone-l]: https://help.github.com/articles/cloning-a-repository/
 [wwf-l]: https://github.com/waffleio/waffle.io/wiki/Recommended-Workflow-Using-Pull-Requests-&-Automatic-Work-Tracking
-[csci4712-l]: {% post_url 2016-01-18-csci-4712 %}
 
 ### Database Goodies
 - [Amazon AWS](https://aws.amazon.com/)

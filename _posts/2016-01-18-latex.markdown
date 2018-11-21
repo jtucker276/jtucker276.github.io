@@ -1,8 +1,0 @@
----
-layout: post
-title:  "LaTeX > Word"
-date:   2016-01-18 13:48:00 -0500
-visible: 0
----
-
-Test page!
