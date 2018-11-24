@@ -7,10 +7,14 @@ tags: [C#, MVC, Ninject, Dependency Inversion, IoC]
 visible: 1
 ---
 
+* TOC
+{:toc}
+
 ### The Challenge
 
-Given that we have a .NET C# MVC application that uses Windows (Active Directory) authentication,
-does not leverage an implementation of a ```RoleProvider``` (see [here](https://docs.microsoft.com/en-us/dotnet/api/system.web.security.roleprovider?view=netframework-4.7.2)),
+Given that we have a .NET C# MVC application that
+does not leverage an implementation of a ```RoleProvider```
+ (see [here](https://docs.microsoft.com/en-us/dotnet/api/system.web.security.roleprovider?view=netframework-4.7.2))
 and relies on a persistent store for role assignments, how do we keep controller actions
 restricted to only authorized users?
 
@@ -151,6 +155,9 @@ public class MvcApplication : NinjectHttpApplication
 }
 ```
 
+
+#### Binding
+
 We bind concretions within modules to avoid having a brobdingnagian set of
 bindings in the future. (See [this](https://github.com/ninject/Ninject/wiki/Modules-and-the-Kernel)
 Ninject wiki on modules.) For the presentation layer, we have a single ```PresentationModule```
@@ -171,7 +178,7 @@ public class PresentationModule : NinjectModule
 }
 ```
 
-### Custom Authorization Attribute
+#### Resolution
 
 When we implement our custom ```AuthorizeAttribute```, it depends on the ```IDependentService```
 to provide the yes/no answer to our authorization question. Note that we are deriving
@@ -233,4 +240,19 @@ this is just another place that we have to update.
 protected IDependentService SomeService { get; set; }
 ```
 
-Up next, we'll look at mocking up the necessary objects to test the ```CustomAuthorizeAttribute```.
+### Conclusion
+
+By using an authorization attribute to limit access to controllers and methods,
+we are keeping with .Net MVC conventions -- while at the same time we are straying
+from convention by using our own persistent role storage outside the context of
+ASP.Net roles. 
+
+We build our custom authorization attribute to depend on a business service to provide
+additional authorization information. While parameterized constructor injection is a
+feasible implementation of dependency resolution in controllers and some other objects, we
+are forced to search out another solution for objects deriving from ```AuthorizeAttribute```.
+
+We do want to avoid using the service locator "anti-pattern" when we have other options
+like constructor injection that more clearly indicate object dependencies. However, since that
+is not an option in some cases, the "anti-pattern" can become a valid pattern assuming its use
+is limited and well documented.
