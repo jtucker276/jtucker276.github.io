@@ -13,6 +13,10 @@ The following is a collection of potentially useful or interesting links, to be 
 - [Slide rules rule](http://www.sliderules.info/pdf/pdf.htm)
 - [What a Terrible Failure](http://developer.android.com/reference/android/util/Log.html#wtf(java.lang.String, java.lang.Throwable))
 
+### Microsoft Definition of "module"
+
+> A module is an intermediate language (IL) file that does not have an assembly manifest. [(Source)](https://docs.microsoft.com/en-us/dotnet/framework/tools/al-exe-assembly-linker)
+
 ### Microsoft Virtual Academy
 - [Introduction to ASP.NET MVC](https://mva.microsoft.com/en-US/training-courses/introduction-to-aspnet-mvc-8322?l=nKZwZ8Zy_3504984382)
 - [Implementing Entity Framework with MVC](https://mva.microsoft.com/en-US/training-courses/implementing-entity-framework-with-mvc-8931?l=e2H2lDC3_8304984382)
