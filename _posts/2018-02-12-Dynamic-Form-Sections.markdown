@@ -10,7 +10,7 @@ permalink: /dynamic-form-data/
 * TOC
 {:toc}
 
-Something that I haven't found well documented is how to generate dynamc form content
+Something that I haven't found well documented is how to generate dynamic form content
 in C# MVC without using another tool or framework like Angular, Knockout, etc. It is
 entirely possible to generate dynamic form content in C# MVC without the use of third
 party tools (other than JQuery!).
