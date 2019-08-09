@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-- Feel free to request to join my [GitLab](http://gitlab.judsontucker.com) instance as a contributing member.
 - This site was made with Jekyll. More information about Jekyll and Minima can be found below.
   - Minima source code at GitHub:
 [jekyll][jekyll-organization] /
